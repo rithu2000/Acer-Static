@@ -1,0 +1,323 @@
+.top_bar{
+    text-align: center;
+     background-image: linear-gradient(to right, #19e586, #0ebba8, #0081bf,#003c5e,#000b11);
+     padding: 8px 0 8px;
+     
+}
+.centre_top_bar{
+    color: white;
+    cursor: pointer;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+}
+
+.shop_now{
+    border-color: white;
+    background-color: #00649e;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    
+}
+.acer_logo
+{
+    cursor: pointer;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 120px;
+    
+}
+body{
+    margin: 0;
+    padding: 0%;
+}
+.mid_bar{
+    height: 85px; 
+    display: flex;
+    
+}
+#search{
+    width: 670px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 50px;
+    background-image: url("images/search.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 45px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+.heart{
+    font-size: 30px;
+    margin-left: 30px;
+   margin-top: 30px;
+   margin-right: 30px;
+   cursor: pointer;
+}
+.headset{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.question{
+
+    font-size: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.user{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.cart{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.contents{
+    display: flex;
+    background-color: rgb(208, 208, 208);
+    height: 65px;
+}
+.contents h5{
+    text-align: center;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.laptop{
+    margin-left: 175px;
+    cursor: pointer;
+}
+.first_img{
+    padding: 20px;
+    cursor: pointer;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .down_bar{
+    text-align: center;
+     background-image: linear-gradient(to right, #19e586, #0ebba8, #0081bf,#003c5e,#000b11);
+     padding: 10px 0 10px;
+     margin: 20px;
+  }
+  
+  .one{
+    margin: 30px;
+    display: flex;
+    margin-left: 70px;
+  }
+  .two{
+    display: flex;
+    margin-left: 50px;
+  }
+  .three{
+    display: flex;
+    margin-left: 50px;
+  }
+  .four{
+    margin: 30px;
+    display: flex;
+    margin-left: 70px;
+  }
+  .five{
+    display: flex;
+    margin-left: 50px;
+  }
+  .six{
+    display: flex;
+    margin-left: 50px;
+  }
+  h2{
+    color: rgb(135, 135, 135);
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20px;
+  }
+
+  hr {
+    width: 97%;
+    margin: 30px;
+  }
+  .total{
+    margin-bottom: 280px;
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .percentage{
+    position: absolute;
+    top: -40px;
+    left: -30px;
+    margin-left: 70px;
+    margin-top: 50px;
+    background-color: #1edd84;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+
+  }
+  .new{
+    position: absolute;
+    top: -10px;
+    left: 46px;
+    margin-top: 20px;
+    margin-left: 230px;
+    background-color: #003c5e;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+
+  }
+  .pc{
+    margin:  10px;
+    display: flex;
+    object-fit: fill;
+    width: 150px;
+    height: 300px;
+    margin-left: 30px;
+
+
+  }
+  .name{
+    margin-left: 30px;
+    width: 320px;
+
+  }
+  .max{
+    color: rgb(139, 139, 139);
+    margin-left: 40px;
+    font-weight: lighter;
+  }
+  .min{
+    color: #1edd84;
+    margin-left: 39px;
+    font-weight: bold;
+  }
+  .cart_in{
+    margin-left: 311px;
+    margin-top: -42px;
+    width: 100px;
+    left: 310px;
+    top: 1939px;
+    
+  }
+  .compare{
+    margin: 0%;
+    color: #bbb;
+    margin-left: 30px;
+    cursor: pointer;
+    width: 160px;
+  }
+  .review{
+    color: #1edd84;
+    margin-left: 30px;
+    font-size: small;
+    width: 140px;
+  }
+ .card{
+    height: 300px;
+    width: 150px;
+ }
+
+ .offer{
+    position: relative;
+ }
+ .check{
+    width: 100px;
+ }
+ .footer{
+    background-color: rgb(31, 31, 31);
+    box-sizing: border-box;
+    padding: 70px 0;
+ }
+ .container{
+    max-width: 1140px;
+    margin: auto;
+
+ }
+ ul{
+    list-style: none;
+    padding: 0%;
+ }
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .footer_col{
+    width: 17%;
+    padding: 15px 15px;
+
+ }
+ .footer_col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .footer_col ul li:not(:last-child){
+    margin-bottom: 10px;
+
+ }
+ .footer_col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+ }
+ .footer_col ul li a:hover{
+    color: #0ebba8;
+ }
+ .footer_col .social_networks a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color:#ffffff;
+    margin-right: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #4c4c4c;
+    transition: all 0.5 ease;
+ }
+ .footer_col .social_networks a:hover{
+    color: #1edd84;
+    background-color: #ffffff;
+ }
+ .contact{
+    color: #1edd84;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
